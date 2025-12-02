@@ -38,6 +38,10 @@ const MainPage = () => {
                     <h2 className="text-2xl font-semibold mb-2">Graph Algorithms (BFS/DFS)</h2>
                     <p className="text-gray-600">Visualize Breadth-First Search (BFS) and Depth-First Search (DFS) on an interactive graph.</p>
                 </Link>
+                <Link to="/red-black-tree" className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="text-2xl font-semibold mb-2">Red-Black Tree</h2>
+                    <p className="text-gray-600">A self-balancing binary search tree. Visualize insertion and rebalancing steps.</p>
+                </Link>
             </div>
         </div>
     );

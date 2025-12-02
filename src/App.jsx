@@ -8,7 +8,7 @@ import BinarySearchTreePage from './pages/BinarySearchTreePage';
 import HeapPage from './pages/HeapPage';
 import HashSetPage from './pages/HashSetPage';
 import GraphPage from './pages/GraphPage';
-
+import RedBlackTreePage from './pages/RedBlackTreePage';
 const App = () => {
   return (
     <Router>
@@ -22,6 +22,7 @@ const App = () => {
         <Route path="/heap" element={<HeapPage />} />
         <Route path="/hash-set" element={<HashSetPage />} />
         <Route path="/graph" element={<GraphPage />} />
+        <Route path="/red-black-tree" element={<RedBlackTreePage />} />
       </Routes>
     </Router>
   );
