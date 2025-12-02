@@ -11,6 +11,7 @@ import GraphPage from './pages/GraphPage';
 import RedBlackTreePage from './pages/RedBlackTreePage';
 import MSTPage from './pages/MSTPage';
 import TopologicalSortPage from './pages/TopologicalSortPage';
+import MergeSortPage from './pages/MergeSortPage';
 const App = () => {
   return (
     <Router>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/red-black-tree" element={<RedBlackTreePage />} />
         <Route path="/mst" element={<MSTPage />} />
         <Route path="/topological-sort" element={<TopologicalSortPage />} />
+        <Route path="/merge-sort" element={<MergeSortPage />} />
       </Routes>
     </Router>
   );
