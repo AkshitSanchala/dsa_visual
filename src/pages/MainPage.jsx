@@ -42,6 +42,14 @@ const MainPage = () => {
                     <h2 className="text-2xl font-semibold mb-2">Red-Black Tree</h2>
                     <p className="text-gray-600">A self-balancing binary search tree. Visualize insertion and rebalancing steps.</p>
                 </Link>
+                <Link to="/mst" className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="text-2xl font-semibold mb-2">Minimum Spanning Tree</h2>
+                    <p className="text-gray-600">Visualize Prim's Algorithm to find the Minimum Spanning Tree of a weighted graph.</p>
+                </Link>
+                <Link to="/topological-sort" className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h2 className="text-2xl font-semibold mb-2">Topological Sort</h2>
+                    <p className="text-gray-600">Visualize Kahn's Algorithm for topological sorting of Directed Acyclic Graphs (DAGs).</p>
+                </Link>
             </div>
         </div>
     );

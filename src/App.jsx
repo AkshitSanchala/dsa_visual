@@ -9,6 +9,8 @@ import HeapPage from './pages/HeapPage';
 import HashSetPage from './pages/HashSetPage';
 import GraphPage from './pages/GraphPage';
 import RedBlackTreePage from './pages/RedBlackTreePage';
+import MSTPage from './pages/MSTPage';
+import TopologicalSortPage from './pages/TopologicalSortPage';
 const App = () => {
   return (
     <Router>
@@ -23,6 +25,8 @@ const App = () => {
         <Route path="/hash-set" element={<HashSetPage />} />
         <Route path="/graph" element={<GraphPage />} />
         <Route path="/red-black-tree" element={<RedBlackTreePage />} />
+        <Route path="/mst" element={<MSTPage />} />
+        <Route path="/topological-sort" element={<TopologicalSortPage />} />
       </Routes>
     </Router>
   );
